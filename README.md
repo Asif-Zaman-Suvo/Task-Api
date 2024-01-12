@@ -11,7 +11,7 @@ This is a simple React application that fetches company data and allows users to
 
 ## Technologies Used
 
-- React
+- Next JS
 - Redux Toolkit
 - Tailwind CSS
 
@@ -38,7 +38,8 @@ npm install
 - Start the development server
 
 ```bash for windows / zsh for mac
-npm run start:dev
+npm run start:
+Open your browser and navigate to http://localhost:3000.
 ```
 
 ## Contribution
