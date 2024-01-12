@@ -1,6 +1,6 @@
 # Company Data Filter App
 
-This is a simple React application that fetches company data and allows users to apply filters based on company status and name.
+This is a simple NextJS application that fetches company data and allows users to apply filters based on company status and name.
 
 ## Features
 
