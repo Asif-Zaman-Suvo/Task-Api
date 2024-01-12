@@ -9,7 +9,13 @@ export const getApi = createApi({
     getCompanyData: builder.query({
       query: (arg) => `get-all-companys?page=${arg.page}`,
     }),
+    getFilteredData: builder.query({
+      query: (args) => {
+        const { company_status, company_name } = args;
+        return `get-all-companys?company_status=${company_status}&company_name=${company_name}`;
+      },
+    }),
   }),
 });
 
-export const { useGetCompanyDataQuery } = getApi;
+export const { useGetCompanyDataQuery, useGetFilteredDataQuery } = getApi;
